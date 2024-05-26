@@ -1,0 +1,96 @@
+version: 1
+source: DataHub
+owners:
+  users:
+  - mjames
+url: https://github.com/datahub-project/datahub/
+nodes:
+- name: 1.0 DataGov Master Data Management
+  description: 1.0 DataGov Master Data Management related terms.
+  nodes:
+  - name: 2.0 Master Data Exchange Interface
+    description: 2.0 Master Data Exchange Interface related terms.
+    nodes:
+    - name: PLM
+      description: PLM related terms.
+      terms:
+      - name: Testing1
+        description: <p>測試1</p>
+        owners:
+          users:
+          - Administrator
+    - name: SYNCERP
+      description: SYNCERP related terms.
+      terms:
+      - name: Testing2
+        description: <p>測試2</p>
+        owners:
+          users:
+          - Data Goverence Committee
+    - name: CRM
+      description: CRM related terms.
+      terms:
+      - name: Testing6
+        description: <p>測試6</p>
+        owners:
+          users:
+          - Administrator
+    - name: MES
+      description: MES related terms.
+      terms:
+      - name: Testing7
+        description: <p>測試7</p>
+        owners:
+          users:
+          - Data Goverence Committee
+  - name: 1.0 Master Data
+    description: 1.0 Master Data related terms.
+    nodes:
+    - name: PLM
+      description: PLM related terms.
+      terms:
+      - name: Testing3
+        description: <p>測試3</p>
+        owners:
+          users:
+          - Administrator
+    - name: MES
+      description: MES related terms.
+      terms:
+      - name: Testing4
+        description: <p>測試4</p>
+        owners:
+          users:
+          - Administrator
+    - name: CRM
+      description: CRM related terms.
+      terms:
+      - name: Testing8
+        description: <p>測試8</p>
+        owners:
+          users:
+          - Administrator
+    - name: ERP
+      description: ERP related terms.
+      terms:
+      - name: Testing9
+        description: <p>測試9</p>
+        owners:
+          users:
+          - Data Goverence Committee
+    - name: HRIS
+      description: HRIS related terms.
+      terms:
+      - name: Testing10
+        description: <p>測試10</p>
+        owners:
+          users:
+          - Data Goverence Committee
+- name: ''
+  description: ' related terms.'
+  terms:
+  - name: Testing5
+    description: <p>測試5</p>
+    owners:
+      users:
+      - Administrator
